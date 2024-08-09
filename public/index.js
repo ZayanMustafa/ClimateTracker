@@ -40,7 +40,7 @@ function displayWeather(data) {
         <p class="text-xl font-semibold">Temperature: ${data.main.temp}°C</p>
         <p class="text-lg">Humidity: ${data.main.humidity}%</p>
         <p class="text-lg">Wind Speed: ${data.wind.speed} m/s</p>
-        <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="${data.weather[0].description}" class="mt-2">
+        <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="${data.weather[0].description}" class="mt-2 ms-6">
     `;
     weatherResult.innerHTML = weatherHTML;
 }
